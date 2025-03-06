@@ -19,8 +19,8 @@ required_conan_version = ">=2.7.0"
 class CuraEngine_gRPC_DefinitionsConan(ConanFile):
     name = "curaengine_grpc_definitions"
     license = "MIT"
-    author = "UltiMaker"
-    url = "https://github.com/Ultimaker/curaengine_grpc_definitions"
+    author = "dr-phil"
+    url = "https://github.com/dr-phil/CuraEngine_grpc_definitions-dr-phil-stable"
     description = "The gRPC definitions for CuraEngine plugins."
     topics = ("cura", "protobuf", "gcode", "grpc", "curaengine", "plugin", "3D-printing")
     exports = "LICENSE*"
